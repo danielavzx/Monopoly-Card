@@ -1,0 +1,129 @@
+/*tackle the font for the items in the yellow box*/
+body {
+    font-family: 'Copperplate Gothic', sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 60%;
+}
+
+/*styling for the outermost box*/
+.outer-box {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    max-width: 300px;
+    max-height: 400px;
+    margin-top: 50px;
+}
+
+
+/* Styling for the second outermost box */
+.box {
+    max-width: 255px;
+    min-height: 302px;
+    margin: 10px auto;
+    border: 2px solid #000000;
+    padding: 10px; /* Box outside of yellow */
+    background-color: #ffffff;
+}
+
+/* Styling for the yellow box + Marvin Gardens text */
+.box h2 {
+    text-align: center;
+    background-color: #FFFF00;
+    color: black;
+    padding: 10px 1px 12px 1px;
+    margin: 0;
+    border: 2px solid black;
+    line-height: 0.6;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* Styling for the text title deed */
+.box h2 small {
+    font-size: 13px;
+    letter-spacing: 3px;
+    display: block;
+}
+
+/* Styling for the rent $ line */
+.align-centerRent {
+    text-align: center;
+    display: block;
+    margin: 7px 0;
+    margin-bottom: -6px;
+    font-size: 17px;
+}
+
+/*styling for the HOTEL line*/
+.align-centerHotel {
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 17px;
+
+}
+
+/*styling for several elements to ensure similar formatting*/
+.align-center {
+    text-align: center;
+    display: block;
+    margin: 0px 0; /* General margin for other centered elements */
+    line-height: 18px;
+    margin-bottom: -18px;
+    font-size: 17px;
+}
+
+/* styling for left padding in the pricing list */
+.float-left {
+    float: left;
+    padding-left: 25px;
+    font-size: 16px
+}
+
+/* styling for right padding in the pricing list */
+.float-right {
+    float: right;
+    padding-right: 32px;
+    font-size: 16px;
+}
+
+/*styling to assist with format*/
+.clear-both {
+    clear: both;
+    margin-top: 7px;
+}
+
+/*styling for the bottom-most text*/
+.bottom-text{
+    font-size: 10px;
+    padding-left: 0;
+    text-align: center;
+    margin: 4px;
+}
+
+/*styling for the trademark*/
+.trademark{
+    margin: 1px;
+}
+
+/*font for all text outside of the yellow box*/
+.body-text{
+    font-family: 'Futura', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*styling for the line spacing throughout the card*/
+.value-margins{
+    margin-top: 0.2px;
+    margin-bottom: -14px;
+}
+
+/*styling for the line spacing for the HOTEL line*/
+.hotel-margin{
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
